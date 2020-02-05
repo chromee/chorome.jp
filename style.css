@@ -1,0 +1,78 @@
+body {
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+a {
+  color: #5e4783;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 2rem;
+  max-width: 680px;
+}
+
+.line {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: -50px;
+  margin-right: -50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#profile {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+  column-gap: 10px;
+}
+
+#avater {
+  border-radius: 50%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#info {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  margin-top: 20px;
+}
+
+#icon {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  margin-top: 50px;
+}
+
+.works {
+  list-style: none;
+}
+
+.work {
+  margin-bottom: 30px;
+}
+
+.work-date {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: -10px;
+}
+
+.work-name {
+  margin-bottom: 10px;
+}
+
+.work-tag {
+  margin-left: ;
+}
